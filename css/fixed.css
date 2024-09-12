@@ -1,0 +1,210 @@
+/*Start fixed-image*/
+.fixed-image1 {
+  background: url("../img/bg/17.jpg") fixed center;
+  background-size: cover;
+  height: 400px;
+}
+
+.fixed-image2 {
+  background: url("../img/bg/23.jpg") fixed center;
+  background-size: cover;
+  height: 400px;
+}
+
+.fixed-image3 {
+  background: url("../img/bg/33.jpg") fixed center;
+  background-size: cover;
+  height: 400px;
+}
+
+.fixed-image4 {
+  background: url("../img/bg/27.jpg") fixed center;
+  background-size: cover;
+  height: 400px;
+}
+/*End fixed-image*/
+
+/*Start Footer*/
+footer {
+  background-color: var(--color-tertiary);
+  padding: 60px 20px;
+}
+
+footer .text {
+  max-width: 500px;
+  margin: auto;
+}
+
+footer .text h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  letter-spacing: 1.9px;
+  margin-bottom: 25px;
+  color: var(--color-secondary);
+}
+
+footer .text .fa-asterisk {
+  font-size: 12px;
+  color: var(--color-primary);
+}
+
+footer .text p {
+  line-height: 27px;
+  color: var(--color-secondary);
+}
+
+footer .contact-container {
+  padding: 40px 0;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer .contact-container > div {
+  flex: 1;
+}
+
+footer .contact-container h3 {
+  font-size: 19px;
+  letter-spacing: 1.9px;
+  color: var(--color-secondary);
+}
+
+footer .social-media .links a {
+  margin: 0 10px;
+  font-size: 25px;
+  color: var(--color-secondary);
+}
+
+footer .newsletter input {
+  padding: 10px;
+  width: 270px;
+  background-color: #eee;
+  border: none;
+  margin-left: -15px;
+}
+
+footer .newsletter i {
+  margin-left: -40px;
+  vertical-align: middle;
+  font-size: 21px;
+  color: var(--color-primary);
+}
+
+.copyright {
+  padding: 15px 40px 30px;
+  background-color: #262526;
+}
+
+.copyright .svg-up {
+  top: 0;
+  left: 50%;
+  margin-left: -96px;
+  margin-top: -50px;
+}
+
+.copyright .arrow-up {
+  width: 40px;
+  height: 30px;
+  top: -45px;
+  color: var(--color-secondary);
+  line-height: 1.9;
+}
+
+.copyright ul {
+  justify-content: center;
+}
+
+.copyright li {
+  color: #919191;
+  font-size: 14px;
+}
+
+.copyright li:not(:last-of-type):after {
+  content: '•';
+  margin: 10px;
+}
+
+.copyright .CTA {
+  margin-top: 25px;
+}
+
+.copyright .CTA li a {
+  color: #919191;
+}
+/*End Footer*/
+
+/*Start Contact Page*/
+.contact-header {
+  background-image: url("../img/bg/contact-food.jpg");
+  height: 40vh;
+}
+
+.contact {
+  padding: 78px 40px;
+}
+
+.contact > div {
+  flex: 50%;
+}
+
+.contact .text p {
+  margin-bottom: 30px;
+  color: var(--color-tertiary);
+}
+
+.contact .text i {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  border-radius: 50%;
+  line-height: 48px;
+  font-size: 24px;
+  color: var(--color-secondary);
+}
+
+.contact .text h2 {
+  font-family: source_sans_problack, sans-serif;
+  font-size: 24px;
+  color: var(--color-tertiary);
+  letter-spacing: 2.4px;
+  margin-bottom: 20px;
+}
+
+.contact .form {
+  margin-left: 48px;
+}
+
+.contact .form form label {
+  margin-bottom: 5px;
+  color: var(--color-tertiary);
+}
+
+.contact .form form input,
+.contact .form form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  border: 2px solid #D8D8D8;
+  outline: none;
+}
+
+.contact .form form input:focus,
+.contact .form form textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 1px 1px #737373;
+}
+
+.contact .form form textarea {
+  height: 212px;
+  resize: none;
+}
+
+.contact .form form button {
+  background-color: #262526;
+  padding: 12px 30px;
+  font-size: 12px;
+  color: var(--color-secondary);
+}
+/*End Contact Page*/

@@ -1,0 +1,82 @@
+/*Start Global*/
+:root {
+  --color-primary: #a96700; /* Ana renk (kahverengi tonları) */
+  --color-secondary: #f2f2f2; /* İkincil renk (açık gri) */
+  --color-tertiary: #515151; /* Üçüncül renk (koyu gri) */
+  
+  --font-primary: 'Herr Von Muellerhoff', cursive; /* H2 için font */
+  --font-secondary: 'Source Code Pro', sans-serif; /* H1, H3 için font */
+  --font-tertiary: 'Cabin', sans-serif; /* Diğer yazılar için font */
+  
+  --font-size-h2: 80px; /* H2 için font boyutu */
+  --font-size-h1: 47px;  /* H1 için font boyutu */
+  --font-size-h3: 35px;  /* H3 için font boyutu */
+  --font-size-p: 18px;   /* Paragraf için font boyutu */
+  
+  --letter-spacing-h1-h3: 9.4px; /* H1 ve H3 için harf aralığı */
+  --line-height-p: 27px;  /* Paragraflar için satır yüksekliği */
+  --cta-border-width: 2px; /* CTA için alt kenar kalınlığı */
+  --cta-padding-bottom: 4px; /* CTA için alt padding */
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 12px;
+}
+
+body.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Headings */
+h2 {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-h2);
+  font-weight: normal;
+  margin: 0 0 25px;
+}
+
+h1,
+h3 {
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-h1);
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing-h1-h3);
+  margin: 0 0 15px;
+}
+
+/* Paragraphs */
+p {
+  color: var(--color-tertiary);
+  line-height: var(--line-height-p);
+  font-size: var(--font-size-p);
+}
+
+/* CTA button */
+.a-CTA {
+  border-bottom: var(--cta-border-width) solid var(--color-primary);
+  padding-bottom: var(--cta-padding-bottom);
+  letter-spacing: 1.5px;
+  font-size: var(--font-size-p);
+}
+/*End Global*/

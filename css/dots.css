@@ -1,0 +1,33 @@
+:root {
+  --dot-size: 12px;
+  --dot-margin-bottom: 10px;
+  --dot-border-width: 2px;
+  --dot-border-color: #fff;
+  --dot-active-color: #000;
+}
+
+.dots {
+  position: fixed;
+  top: 50%;
+  right: 30px;
+  transform: translate(0, -50%);
+  z-index: 5;
+}
+
+.dots > div {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  border-radius: 50%;
+  z-index: 20;
+  margin-bottom: var(--dot-margin-bottom);
+  border: var(--dot-border-width) solid var(--dot-border-color);
+  cursor: pointer; /* Dotlar tıklanabilir */
+}
+
+.dots .active {
+  background-color: var(--dot-active-color);
+}
+
+.dots .black {
+  border-color: var(--dot-active-color);
+}
