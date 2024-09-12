@@ -1,0 +1,54 @@
+/* contact.css */
+
+.contact-header {
+    background-image: url(".img/bg/contact-food.jpg");
+    height: 40vh;
+  }
+  
+  .contact {
+    padding: 78px 40px;
+  }
+  
+  .contact .text p {
+    margin-bottom: 30px;
+  }
+  
+  .contact .text h2 {
+    font-family: source_sans_problack, sans-serif;
+    font-size: 24px;
+    color: #262626;
+    letter-spacing: 2.4px;
+    margin-bottom: 20px;
+  }
+  
+  .contact .form {
+    margin-left: 48px;
+  }
+  
+  .contact .form form label {
+    margin-bottom: 5px;
+    color: #515151;
+  }
+  
+  .contact .form form input,
+  .contact .form form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: 2px solid #D8D8D8;
+    outline: none;
+  }
+  
+  .contact .form form textarea {
+    height: 212px;
+    resize: none;
+  }
+  
+  .contact .form form button {
+    background-color: #262526;
+    padding: 12px 30px;
+    font-size: 12px;
+  }
+  

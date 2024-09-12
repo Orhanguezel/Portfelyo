@@ -1,0 +1,45 @@
+/*Start About-Us*/
+.about-us,
+.reservation {
+  padding: 60px;
+  background-color: var(--color-secondary); /* Root değişkenine göre arka plan rengi */
+}
+
+.about-us .text,
+.reservation .text {
+  flex: 50%;
+  padding: 40px 52px 0 0;
+  color: var(--color-tertiary); /* Root değişkenine göre yazı rengi */
+}
+
+.about-us .text h3,
+.reservation .text h3 {
+  color: var(--color-primary); /* Root değişkenine göre başlık rengi */
+}
+
+.about-us .text .fa-asterisk,
+.reservation .text .fa-asterisk {
+  color: #9a9998;
+}
+
+.about-us .image-container,
+.reservation .image-container {
+  flex: 50%;
+}
+
+.about-us .image,
+.reservation .image {
+  margin-left: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/*End About-Us*/
+
+/*Start Recipes*/
+.recipes .image {
+  height: 350px;
+  background: url("../img/bg/three-col-1.jpg") fixed center;
+  background-size: cover;
+}
+/*End Recipes*/

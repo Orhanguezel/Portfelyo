@@ -1,0 +1,117 @@
+/*Start Menu*/
+.menu {
+  padding: 60px;
+}
+
+.menu .box-model {
+  display: none;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu .box-model.active {
+  display: block;
+}
+
+.menu .box-model.active body {
+  overflow: hidden;
+}
+
+.menu .box-model .close {
+  color: var(--color-tertiary);
+  right: 25px;
+  top: 10px;
+  z-index: 20;
+}
+
+.menu .box-model .arrow .arrow-right,
+.menu .box-model .arrow .arrow-left {
+  width: 40px;
+  height: 40px;
+  right: 20px;
+  top: 50%;
+  border-right: 2px solid var(--color-secondary);
+  border-top: 2px solid var(--color-secondary);
+  transform: rotate(45deg);
+  z-index: 20;
+}
+
+.menu .box-model .arrow .arrow-left {
+  left: 20px;
+  transform: rotate(-135deg);
+}
+
+.menu .box-image-container {
+  height: 100%;
+}
+
+.menu .box-image-container .box-image img.active {
+  animation: scale 0.5s;
+}
+
+@keyframes scale {
+  from {
+      transform: scale(0, 0);
+  }
+
+  to {
+      transform: scale(1, 1);
+  }
+}
+
+.menu .menu-image-container {
+  flex-wrap: wrap;
+  flex: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu .menu-image-container .image {
+  margin: 0 20px 20px 0;
+  flex: calc(50% - 40px);
+}
+
+.menu .text {
+  flex: 55%;
+  padding: 40px 0 0 62px;
+}
+
+.menu .text h3 {
+  color: var(--color-tertiary);
+}
+
+.menu .text .fa-asterisk {
+  color: var(--color-muted);
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  padding: 10px;
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+/*End Menu*/
