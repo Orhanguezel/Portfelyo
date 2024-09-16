@@ -24,10 +24,10 @@ navNavigationBarLi.forEach(li => {
 window.onscroll = function () {
     if (window.scrollY > headerSection.offsetHeight - 75) {
         nav.classList.add("active");
-        logoImage.src = "../img/logo/7.png"; // Tam dosya yolunu kullan
+        logoImage.src = "assets/web-Logo.png"; // Tam dosya yolunu kullan
     } else {
         nav.classList.remove("active");
-        logoImage.src = "../img/logo/6.png"; // Tam dosya yolunu kullan
+        logoImage.src = "assets/web-Logo.png"; // Tam dosya yolunu kullan
     }
 };
 

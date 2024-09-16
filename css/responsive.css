@@ -114,18 +114,15 @@
     text-align: left;
     padding: 14px 0;
   }
+  header nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  }
 
-  @media (max-width: 768px) {
-    header nav .logo img {
-      width: 350px; /* Mobil ekranlar için daha küçük boyut */
-    }
-  }
-  
   @media (max-width: 576px) {
-    header nav .logo img {
-      width: 350px; /* Daha küçük ekranlar için daha küçük boyut */
-    }
-  }
+
 
   footer .contact-container {
     display: block;
