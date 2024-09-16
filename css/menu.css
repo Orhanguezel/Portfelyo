@@ -44,40 +44,27 @@
   transform: rotate(-135deg);
 }
 
-.menu .box-image-container {
-  height: 100%;
-}
-
-.menu .box-image-container .box-image img.active {
-  animation: scale 0.5s;
-}
-
-@keyframes scale {
-  from {
-      transform: scale(0, 0);
-  }
-
-  to {
-      transform: scale(1, 1);
-  }
-}
-
 .menu .menu-image-container {
-  flex-wrap: wrap;
-  flex: 60%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .menu .menu-image-container .image {
   margin: 0 20px 20px 0;
-  flex: calc(50% - 40px);
+  flex: 1 1 calc(25% - 20px); /* Adjust the width to fit 4 images in a row */
+  max-width: 150px; /* Adjust the max-width as needed */
+}
+
+.menu .menu-image-container .image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure the images cover the area without distortion */
 }
 
 .menu .text {
-  flex: 55%;
-  padding: 40px 0 0 62px;
+  flex: 1;
+  padding: 40px 0 0 20px; /* Adjust padding as needed */
 }
 
 .menu .text h3 {
